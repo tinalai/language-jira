@@ -1,0 +1,18 @@
+{
+  "name": "language-jira",
+  "main": "./lib/language-jira",
+  "version": "0.0.0",
+  "description": "Jira language package for Atom",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "language-jira:toggle"
+  },
+  "repository": "https://github.com/tinalai/language-jira.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

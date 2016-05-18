@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle language-jira",
+        "command": "language-jira:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "language-jira",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "language-jira:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
