@@ -5,4 +5,29 @@
 @import "ui-variables";
 
 .language-jira {
+  &.keyword {
+    &.unresolved.jira{
+      color: @purple;
+    }
+
+    &.resolved.jira {
+      color: @bright-blue;
+    }
+
+    &.important.jira {
+      color: @hydrant-red;
+    }
+
+    &.question.jira {
+      color: @light-orange;
+    }
+
+    &.info.jira {
+      color: @green;
+    }
+
+    &.url.jira {
+      color: @cursor-blue;
+    }
+  }
 }
