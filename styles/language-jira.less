@@ -4,30 +4,31 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
-.language-jira {
-  &.keyword {
+// Styling in Wafflebomb-syntax, 
+atom-text-editor::shadow .source.jira {
+  .keyword {
     &.unresolved.jira{
-      color: @purple;
+      color: #ae81ff;
     }
 
     &.resolved.jira {
-      color: @bright-blue;
+      color: #a1efe4;
     }
 
     &.important.jira {
-      color: @hydrant-red;
+      color: #f92672;
     }
 
     &.question.jira {
-      color: @light-orange;
+      color: #fd971f;
     }
 
     &.info.jira {
-      color: @green;
+      color: #a6e22e;
     }
 
     &.url.jira {
-      color: @cursor-blue;
+      color: #66d9ef;
     }
   }
 }

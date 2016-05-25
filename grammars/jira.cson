@@ -3,11 +3,12 @@
 'fileTypes': [
   'txt'
   'jira'
+  'plaintext'
 ]
 'patterns': [
   {
     # comment: Unresolved
-    'match': '\\[*\\].+?\\*{2}$'
+    'match': '\\[\\*\\].+?\\*{2}$'
     'name': 'keyword.unresolved.jira'
   },
   {

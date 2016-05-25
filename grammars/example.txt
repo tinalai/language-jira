@@ -1,3 +1,5 @@
-[!] important stuff
-[*] unresolved **
-[R] resolved
+[!] Important stuff
+[*] Unresolved **
+[R] Resolved tasks
+[info] Notes and other information
+[?] Questions
