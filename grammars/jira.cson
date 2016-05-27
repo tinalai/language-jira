@@ -27,13 +27,18 @@
     'name': 'keyword.question.jira'
   },
   {
-    # comment: Information/note
-    'match': '\\[info\\].+?$'
-    'name': 'keyword.info.jira'
+    # comment: Note/Info
+    'match': '\\[note\\].+?$'
+    'name': 'keyword.note.jira'
   },
   {
     # comment: URL
-    'match': '(\\[a-z\\])://.+(/[a-zA-Z0-9\\-\\_\\.\\?\\&\\=\\+]+)'
+    'match' : '(\\w{4,5}):\\/\\/.[\\S]+'
     'name': 'keyword.url.jira'
+  },
+  {
+    # comment: Date
+    'match': '\\d{2}\\/\\d{2}\\/\\d{4}'
+    'name': 'date.jira'
   }
 ]

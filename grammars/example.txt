@@ -1,5 +1,10 @@
 [!] Important stuff
 [*] Unresolved **
 [R] Resolved tasks
-[info] Notes and other information
+[note] Notes and other information
 [?] Questions
+URLs
+    http://example.com/browse
+    https://test.com/123/example-01
+Date format
+    01/28/2016 mm/dd/yyyy
