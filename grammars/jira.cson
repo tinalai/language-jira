@@ -40,5 +40,10 @@
     # comment: Date
     'match': '\\d{2}\\/\\d{2}\\/\\d{4}'
     'name': 'date.jira'
+  },
+  {
+    # comment: Branch
+    'match': '\\[branch\\].+?$'
+    'name': 'keyword.branch.jira'
   }
 ]

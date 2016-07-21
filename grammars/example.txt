@@ -8,3 +8,4 @@ URLs
     https://test.com/123/example-01
 Date format
     01/28/2016 mm/dd/yyyy
+[branch] name_of_branch
