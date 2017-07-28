@@ -5,8 +5,8 @@
 @import "ui-variables";
 
 // Suggested styling - copy & paste in your Atom Stylesheet(styles.less)
-atom-text-editor::shadow .source.jira {
-  .keyword {
+atom-text-editor.editor .syntax--source.jira {
+  .syntax--keyword {
     &.unresolved.jira{
       color: #ae81ff;
     }
@@ -15,28 +15,28 @@ atom-text-editor::shadow .source.jira {
       color: #a1efe4;
     }
 
-    &.important.jira {
+    &.syntax--important.jira {
       color: #f92672;
     }
 
-    &.question.jira {
+    &.syntax--question.jira {
       color: #fd971f;
     }
 
-    &.info.jira {
+    &.syntax--info.jira {
       color: #a6e22e;
     }
 
-    &.url.jira {
+    &.syntax--url.jira {
       color: #20c7e6;
     }
 
-    &.branch.jira {
+    &.syntax--branch.jira {
       color: #b18952;
     }
   }
 
-  .date.jira {
+  .syntax--date.jira {
     color: #f5eb0c;
   }
 }
